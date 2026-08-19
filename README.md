@@ -1,100 +1,82 @@
 # 🏃 Fitness Tracker
 
-A Flutter-based fitness tracking application designed to help users monitor their daily health and fitness habits in one place.
+Fitness Tracker is a Flutter mobile application that helps users monitor their daily fitness and health habits in one place.
 
-The app focuses on tracking daily steps, water intake, physical activities, and personal fitness goals, with progress visualization and health reminders.
+The app allows users to track daily steps, water intake, physical activities, and personal goals, while providing progress charts and health reminders.
 
----
+## ✨ Features
 
-## 📱 Features
+- 👟 Track daily steps using Android Health Connect
+- 💧 Track and manage daily water intake
+- 🏋️ Log physical activities, duration, calories, and notes
+- 🔥 View daily activity summaries
+- 📊 Track progress using charts and history
+- 🎯 Customize daily steps and water goals
+- 🔔 Receive water, activity, and goal reminders
+- 🌙 Light and Dark themes
+- 👤 Manage profile information and profile image
+- ⚙️ Health Connect and notification settings
 
-### 👟 Daily Steps
-- Track daily steps using Android Health Connect.
-- Display the current step count.
-- Set and customize a daily steps goal.
-- Track progress toward the daily target.
+## 🛠️ Built With
 
-### 💧 Water Tracking
-- Track daily water intake.
-- Quickly add common water amounts.
-- Add a custom amount.
-- Remove water if an incorrect amount was added.
-- Reset the daily water intake.
-- Automatically start a new daily record.
+- Flutter
+- Dart
+- Android Health Connect
+- SharedPreferences
+- Flutter Local Notifications
+- fl_chart
+- permission_handler
+- image_picker
+- path_provider
 
-### 🏋️ Activity Tracking
-- Log physical activities.
-- Record activity type.
-- Record duration.
-- Record calories burned.
-- Add optional notes.
-- View today's activity summary from the Home screen.
-- View detailed activity history from the Activity section.
-- Delete recorded activities.
+## 📱 Screenshots
 
-### 📊 Progress Tracking
-- Visualize fitness progress using charts.
-- Track steps and water intake over time.
-- Review historical activity data.
+<table>
+  <tr>
+    <td align="center">
+      <img src="assets/screenshots/home.jpg" width="250"/>
+      <br>
+      <b>Home</b>
+    </td>
+    <td align="center">
+      <img src="assets/screenshots/progress.jpg" width="250"/>
+      <br>
+      <b>Progress</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="assets/screenshots/activity.jpg" width="250"/>
+      <br>
+      <b>Activity</b>
+    </td>
+    <td align="center">
+      <img src="assets/screenshots/setting.jpg" width="250"/>
+      <br>
+      <b>Settings</b>
+    </td>
+  </tr>
+</table>
 
-### 🎯 Daily Goals
-- Customize daily steps goal.
-- Customize daily water goal.
-- Track progress toward personal targets.
+## 📥 Download
 
-### 🔔 Health Reminders
-- Water reminders throughout the day.
-- Activity reminders.
-- Daily goal reminders.
-- Customizable reminder times.
-- Customizable water reminder interval.
-- Test notification option.
+The latest Android release is available here:
 
-### ⚙️ Settings
-- Dark Mode.
-- Notification controls.
-- Health Connect connection.
-- Daily Goals management.
-- About section.
+[Download Fitness Tracker](https://github.com/Amr-Sadek/fitness_tracker/releases)
 
-### 👤 Profile
-- Personal profile information.
-- Profile image selection.
-- Local profile data storage.
+## 🚀 Getting Started
 
----
+### Requirements
 
-## 🛠️ Technologies
+- Flutter SDK
+- Dart SDK
+- Android Studio
+- Android device or emulator
+- Android Health Connect
 
-- **Flutter**
-- **Dart**
-- **Android Health Connect**
-- **SharedPreferences**
-- **Flutter Local Notifications**
-- **fl_chart**
-- **permission_handler**
-- **image_picker**
-- **path_provider**
+### Installation
 
----
+Clone the repository:
 
-## 📂 Project Structure
-
-```text
-lib/
-├── screens/
-│   ├── home_screen.dart
-│   ├── progress_screen.dart
-│   ├── activity_screen.dart
-│   ├── settings_screen.dart
-│   └── daily_goals_screen.dart
-│
-├── services/
-│   ├── health_service.dart
-│   ├── water_service.dart
-│   ├── activity_service.dart
-│   ├── goal_service.dart
-│   └── notification_service.dart
-│
-└── theme/
-    └── app_theme.dart
+```bash
+git clone https://github.com/Amr-Sadek/fitness_tracker.git
