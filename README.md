@@ -78,5 +78,22 @@ The latest Android release is available here:
 
 Clone the repository:
 
-```bash
-git clone https://github.com/Amr-Sadek/fitness_tracker.git
+`git clone https://github.com/Amr-Sadek/fitness_tracker.git`
+
+Navigate to the project:
+
+`cd fitness_tracker`
+
+Install dependencies:
+
+`flutter pub get`
+
+Run the application:
+
+`flutter run`
+
+## 👨‍💻 Author
+
+**Amr Sadek**
+
+Flutter Developer
