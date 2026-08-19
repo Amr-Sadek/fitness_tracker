@@ -1,5 +1,9 @@
 # 🏃 Fitness Tracker
 
+<p align="center">
+  <img src="assets/screenshots/cover.png" width="100%"/>
+</p>
+
 Fitness Tracker is a Flutter mobile application that helps users monitor their daily fitness and health habits in one place.
 
 The app allows users to track daily steps, water intake, physical activities, and personal goals, while providing progress charts and health reminders.
